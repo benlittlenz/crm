@@ -23,6 +23,7 @@ mix
     cssNesting(),
     require('tailwindcss'),
   ])
+  .sass('resources/sass/app.scss', 'public/css')
   .webpackConfig({
     output: { chunkFilename: 'js/[name].js?id=[chunkhash]' },
     resolve: {

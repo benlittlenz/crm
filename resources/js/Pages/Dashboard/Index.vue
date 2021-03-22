@@ -7,6 +7,14 @@
       <inertia-link class="btn-indigo ml-1" href="/404">404 error</inertia-link>
     </div>
     <p class="leading-normal">👆 These links are intended to be broken to illustrate how error handling works with Inertia.js.</p>
+
+    <FormulateInput
+  type="button"
+  disabled
+>
+  Loading <span class="loader" />
+</FormulateInput>
+hghdfgfhghfdg
   </div>
 </template>
 

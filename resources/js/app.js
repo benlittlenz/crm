@@ -3,6 +3,9 @@ import VueMeta from 'vue-meta'
 import PortalVue from 'portal-vue'
 import { App, plugin } from '@inertiajs/inertia-vue'
 import { InertiaProgress } from '@inertiajs/progress/src'
+import VueFormulate from '@braid/vue-formulate'
+
+Vue.use(VueFormulate)
 
 Vue.config.productionTip = false
 Vue.mixin({ methods: { route: window.route } })
